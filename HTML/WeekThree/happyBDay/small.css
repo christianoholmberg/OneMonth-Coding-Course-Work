@@ -1,0 +1,23 @@
+﻿.container{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.headPic img {
+    border-radius: 0;
+}
+
+aside.floatRight {
+    text-align: center;
+    float: inherit;
+}
+
+aside.floatRight {
+    text-align: center;
+    float: inherit;
+}
+
+img{
+    padding: 10px;
+}

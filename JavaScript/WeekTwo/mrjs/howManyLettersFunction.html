@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>How Many Letters Function</title>
+</head>
+<body>
+    
+    <div id="answer">
+        <h1>Answer</h1>
+    </div>
+
+    <br />
+
+    <div id="againButton">
+        <button onClick="howManyLetters()">New Word</button>
+    </div>
+
+    <script type="text/javascript">
+
+        function howManyLetters() {
+            var input = prompt("Type a word to see how many letters it has");
+            var inputLength = input.length;
+            var h1 = document.getElementById("answer");
+            h1.innerHTML = input + " is " + inputLength + " letters long!";
+        }
+
+    </script>
+
+
+</body>
+</html>

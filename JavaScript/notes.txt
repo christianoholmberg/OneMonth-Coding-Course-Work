@@ -1,0 +1,4 @@
+dark sky api - weather data
+google charts
+stripe api - accept payments
+

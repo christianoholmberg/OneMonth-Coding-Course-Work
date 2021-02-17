@@ -1,0 +1,86 @@
+﻿body{
+    background: #DDD;
+    font-family: 'Open Sans', Arial, sans-serif;
+    background: url('images/space-background.png');
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.75;
+    margin-bottom: 28px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+ul li {
+    list-style: decimal inside;
+}
+
+
+*{
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+h1, h2{
+    font-family: 'Lobster', cursive;
+    color: #e22f8f;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+h1{
+    font-size: 40px;
+}
+
+h2{
+    font-size: 16px;
+}
+
+.container {
+    width: 600px;
+    margin: 100px auto;
+}
+
+.headPic img {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+aside.floatRight{
+    float: right;
+}
+
+aside.floatLeft{
+    float: left;
+}
+
+.headPic {
+    line-height: 0;
+}
+
+section.blockOne, section.blockTwo {
+    padding: 40px;
+}
+
+section.blockOne {
+    background: #FFF;
+}
+
+aside {
+    margin-right: 24px;
+}
+
+section.blockTwo{
+background: #e6e9ea;
+}

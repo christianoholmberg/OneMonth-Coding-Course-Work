@@ -1,0 +1,41 @@
+body {
+	background: url('../images/idiot.jpg');
+	/* the follow is the code to have the image display as a full page */
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#container {
+	background:#7a6c6c;
+	width: 500px;
+	color: white;
+	padding: 15px;
+	font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	font-size: 80px;
+}
+
+h2 {
+	background: #d57a7e;
+	color:black;
+	padding: 5px;
+	border-radius: 5px;
+	font-size: 200%;
+	text-align: center;
+}
+
+
+p {
+	font-size: 175%;
+}
+
+a {
+	color: #d57a7e;
+	text-decoration: none;
+}

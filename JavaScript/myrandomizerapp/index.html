@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="Happy Hour App - How about a drink!?">
+		<meta name="keywords" content="happy hour, drink, beers">
+
+		<title>Nightly Plans</title>
+		
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+
+		<script>
+		
+			
+			var movies = [
+				"Interstellar",
+				"Avatar",
+				"The Da Vinci Code",
+				"The Martian",
+				"Inception",
+				"Tenet",
+				"The Godfather",
+				"Star Wars"
+			];
+
+			var dinner = [
+				'Taco Bell',
+				'Alessio"s',
+				'Chick-Fil-A',
+				'Panda Express',
+				'Five Guy"s Burgers and Fries',
+				'Suvidha',
+				'Chipotle',
+				'Zaxby"s'				
+			];
+
+			var randMovie = Math.floor(Math.random()*movies.length);
+			var randDinner = Math.floor(Math.random()*dinner.length);
+			
+			var movieChoice = movies[randMovie];
+			var dinnerChoice = dinner[randDinner];
+
+			document.write("<h1>Since you can not make decisions for yourself. We have done it for you. You will eat<br><strong> " + dinnerChoice + " </strong><br>while you watch<br><strong> " + movieChoice +"</strong></h1>")
+		
+		</script>
+	</head>
+	<body>
+		
+	</body>
+</html>
